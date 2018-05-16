@@ -4,7 +4,7 @@
 
 
 ## 使い方
-1.リポジトリをクローンする
-2.`rails db:setup`
-3.`rake distribute_ticket:increment`,  `rake distribute_ticket:transact`, `rake distribute_ticket:rescue`をそれぞれ試す
+1. リポジトリをクローンする
+2. `rails db:setup`
+3. `rake distribute_ticket:increment`,  `rake distribute_ticket:transact`, `rake distribute_ticket:rescue`をそれぞれ試す
 
