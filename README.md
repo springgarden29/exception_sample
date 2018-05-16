@@ -1,24 +1,10 @@
-# README
+# このリポジトリについて
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+例外処理の挙動について、rakeタスクを通じて確かめるためのリポジトリです。
 
-Things you may want to cover:
 
-* Ruby version
+## 使い方
+1.リポジトリをクローンする
+2.`rails db:setup`
+3.`rake distribute_ticket:increment`,  `rake distribute_ticket:transact`, `rake distribute_ticket:rescue`をそれぞれ試す
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
