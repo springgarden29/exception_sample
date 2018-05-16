@@ -1,7 +1,7 @@
 namespace :distribute_ticket do
 # 例外が起こってもロールバックしないので、途中まで値が反映されてしまう
   desc "全ユーザーのticket_countを10増加させる"
-  task distribute: :environment do
+  task increment: :environment do
     User.find_each do |user|
       user.increment!(:ticket_count, 10)
     end
